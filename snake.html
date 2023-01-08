@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>貪吃蛇</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+  <div class="title">
+    <h1>貪吃蛇遊戲</h1>
+  </div>
+
+<div class="panel">
+  <h2>Score: 0</h2>
+  <p>提示:吃到綠色方塊不會增加蛇移動的速度，但紅色方塊會<br>
+      操作方式:請用鍵盤上下左右鍵操控
+  </p>
+  <button onclick="game.startGame()">Start Game</button>
+</div>
+<canvas id="mycanvas"></canvas>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/tone/13.4.10/Tone.min.js'></script>
+  <script  src="./script.js"></script>
+
+</body>
+</html>

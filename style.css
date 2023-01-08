@@ -1,0 +1,40 @@
+html, body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+  background-color: rgb(188, 202, 239);
+}
+html canvas, body canvas {
+  max-height: 100vh;
+}
+body .title {
+  margin-bottom: 600px;
+}
+html .panel, body .panel {
+  position: absolute;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+html .panel h2, body .panel h2, body .panel p {
+  margin-bottom: 0;
+  margin-left: 200px;
+}
+html .panel button, body .panel button {
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 5px 10px;
+  margin-left: 200px;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+}
+html .panel button:hover, body .panel button:hover {
+  background-color: #fff;
+  color: black;
+}
